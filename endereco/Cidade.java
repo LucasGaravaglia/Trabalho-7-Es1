@@ -6,7 +6,12 @@ public class Cidade {
 
   public Cidade(String nome, Uf uf) {
     this.nome = nome;
-    this.uf = uf;
+    this.uf = new Uf(uf);
+  }
+
+  public Cidade(Cidade other) {
+    this.nome = other.nome;
+    this.uf = new Uf(uf);
   }
 
   public String getNome() {

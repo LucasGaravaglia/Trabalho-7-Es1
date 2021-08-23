@@ -8,7 +8,13 @@ public class EnderecoEspecifico {
   public EnderecoEspecifico(Integer nroCasa, String complemento, Endereco endereco) {
     this.nroCasa = nroCasa;
     this.complemento = complemento;
-    this.endereco = endereco;
+    this.endereco = new Endereco(endereco);
+  }
+
+  public EnderecoEspecifico(EnderecoEspecifico other) {
+    this.nroCasa = other.nroCasa;
+    this.complemento = other.complemento;
+    this.endereco = new Endereco(other.endereco);
   }
 
   public Integer getNroCasa() {

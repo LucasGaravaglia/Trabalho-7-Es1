@@ -1,28 +1,28 @@
 package direito;
 
 public class Direito {
-  private double valor;
-  private TipoDireito tipoBem;
+  private Double valor;
+  private TipoDireito tipoDireito;
 
-  public Direito(double valor, TipoDireito tipoBem) {
+  public Direito(Double valor, TipoDireito tipoDireito) {
     this.valor = valor;
-    this.tipoBem = tipoBem;
+    this.tipoDireito = new TipoDireito(tipoDireito);
   }
 
-  public double getValor() {
+  public Double getValor() {
     return valor;
   }
 
-  public void setValor(double valor) {
+  public void setValor(Double valor) {
     this.valor = valor;
   }
 
-  public TipoDireito getTipoBem() {
-    return tipoBem;
+  public TipoDireito getTipoDireito() {
+    return tipoDireito;
   }
 
-  public void setTipoBem(TipoDireito tipoBem) {
-    this.tipoBem = tipoBem;
+  public void setTipoDireito(TipoDireito tipoDireito) {
+    this.tipoDireito = tipoDireito;
   }
 
 }

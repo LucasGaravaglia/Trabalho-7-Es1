@@ -9,6 +9,11 @@ public class TipoLogradouro {
     this.sigla = sigla;
   }
 
+  public TipoLogradouro(TipoLogradouro other) {
+    this.nome = other.nome;
+    this.sigla = other.sigla;
+  }
+
   public String getNome() {
     return nome;
   }

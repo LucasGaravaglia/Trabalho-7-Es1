@@ -7,6 +7,10 @@ public class Bairro {
     this.nome = nome;
   }
 
+  public Bairro(Bairro other) {
+    this.nome = other.nome;
+  }
+
   public String getNome() {
     return nome;
   }

@@ -9,6 +9,11 @@ public class TipoDireito {
     this.descricao = descricao;
   }
 
+  public TipoDireito(TipoDireito other) {
+    this.nome = other.nome;
+    this.descricao = other.descricao;
+  }
+
   public String getNome() {
     return nome;
   }

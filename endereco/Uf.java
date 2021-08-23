@@ -9,6 +9,11 @@ public class Uf {
     this.sigla = sigla;
   }
 
+  public Uf(Uf other) {
+    this.nome = other.nome;
+    this.sigla = other.sigla;
+  }
+
   public String getNome() {
     return nome;
   }

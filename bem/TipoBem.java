@@ -9,6 +9,11 @@ public class TipoBem {
     this.descricao = descricao;
   }
 
+  public TipoBem(TipoBem other) {
+    this.nome = other.nome;
+    this.descricao = other.descricao;
+  }
+
   public String getNome() {
     return nome;
   }

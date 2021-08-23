@@ -1,15 +1,15 @@
 package bem;
 
 public class Bem {
-  private double valor;
+  private Double valor;
   private TipoBem tipoBem;
 
-  public Bem(double valor, TipoBem tipoBem) {
+  public Bem(Double valor, TipoBem tipoBem) {
     this.valor = valor;
-    this.tipoBem = tipoBem;
+    this.tipoBem = new TipoBem(tipoBem);
   }
 
-  public double getValor() {
+  public Double getValor() {
     return valor;
   }
 
@@ -17,7 +17,7 @@ public class Bem {
     return tipoBem;
   }
 
-  public void setValor(double valor) {
+  public void setValor(Double valor) {
     this.valor = valor;
   }
 

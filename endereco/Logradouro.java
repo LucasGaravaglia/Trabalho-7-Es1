@@ -6,7 +6,12 @@ public class Logradouro {
 
   public Logradouro(String nome, TipoLogradouro tipoLogradouro) {
     this.nome = nome;
-    this.tipoLogradouro = tipoLogradouro;
+    this.tipoLogradouro = new TipoLogradouro(tipoLogradouro);
+  }
+
+  public Logradouro(Logradouro other) {
+    this.nome = other.nome;
+    this.tipoLogradouro = new TipoLogradouro(other.tipoLogradouro);
   }
 
   public String getNome() {

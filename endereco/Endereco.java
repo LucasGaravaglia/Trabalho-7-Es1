@@ -8,9 +8,16 @@ public class Endereco {
 
   public Endereco(String cep, Logradouro logradouro, Bairro bairro, Cidade cidade) {
     this.cep = cep;
-    this.logradouro = logradouro;
-    this.bairro = bairro;
-    this.cidade = cidade;
+    this.logradouro = new Logradouro(logradouro);
+    this.bairro = new Bairro(bairro);
+    this.cidade = new Cidade(cidade);
+  }
+
+  public Endereco(Endereco other) {
+    this.cep = other.cep;
+    this.logradouro = new Logradouro(other.logradouro);
+    this.bairro = new Bairro(other.bairro);
+    this.cidade = new Cidade(other.cidade);
   }
 
   public String getCep() {
