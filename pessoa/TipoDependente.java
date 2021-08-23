@@ -7,6 +7,10 @@ public class TipoDependente {
     this.tipoDependente = tipoDependente;
   }
 
+  public TipoDependente(TipoDependente other) {
+    this.tipoDependente = other.tipoDependente;
+  }
+
   public String getTipoDependente() {
     return tipoDependente;
   }

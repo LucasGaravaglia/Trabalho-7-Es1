@@ -13,7 +13,7 @@ public class Dependente extends PessoaFisica {
       EnderecoEspecifico enderecoResidencial, String sobrenome, String nomeSocial, String cpf, String rg,
       Character sexo, TipoDependente tipoDependente) {
     super(nome, telefones, emails, enderecoResidencial, sobrenome, nomeSocial, cpf, rg, sexo);
-    this.tipoDependente = tipoDependente;
+    this.tipoDependente = new TipoDependente(tipoDependente);
   }
 
   public TipoDependente getTipoDependente() {

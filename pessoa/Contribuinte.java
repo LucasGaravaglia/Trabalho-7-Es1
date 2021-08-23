@@ -17,9 +17,9 @@ public class Contribuinte extends PessoaFisica {
       EnderecoEspecifico enderecoResidencial, String sobrenome, String nomeSocial, String cpf, String rg,
       Character sexo, ArrayList<Bem> bens, ArrayList<Direito> direitos, ArrayList<Rendimento> rendimentos) {
     super(nome, telefones, emails, enderecoResidencial, sobrenome, nomeSocial, cpf, rg, sexo);
-    this.bens = bens;
-    this.direitos = direitos;
-    this.rendimentos = rendimentos;
+    this.bens = new ArrayList<>(bens);
+    this.direitos = new ArrayList<>(direitos);
+    this.rendimentos = new ArrayList<>(rendimentos);
   }
 
   public ArrayList<Bem> getBens() {
