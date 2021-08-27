@@ -8,9 +8,9 @@ public class Endereco {
 
   public Endereco(String cep, Logradouro logradouro, Bairro bairro, Cidade cidade) {
     this.cep = cep;
-    this.logradouro = new Logradouro(logradouro);
-    this.bairro = new Bairro(bairro);
-    this.cidade = new Cidade(cidade);
+    this.logradouro = new Logradouro(logradouro);// Composição
+    this.bairro = new Bairro(bairro);// Composição
+    this.cidade = new Cidade(cidade);// Composição
   }
 
   public Endereco(Endereco other) {

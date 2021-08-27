@@ -20,7 +20,6 @@ public class PessoaFisica extends Pessoa {
     this.sobrenome = sobrenome;
     this.nomeSocial = nomeSocial;
     this.cpf = cpf;
-    this.rg = rg;
     this.sexo = sexo;
   }
 

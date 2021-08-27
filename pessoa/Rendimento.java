@@ -12,7 +12,7 @@ public class Rendimento {
     this.inss = inss;
     this.iffr = iffr;
     this.decimoTerceiro = decimoTerceiro;
-    this.empresa = empresa;
+    this.empresa = empresa;// Agregação
   }
 
   public Double getValor() {
