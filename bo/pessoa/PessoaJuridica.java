@@ -1,10 +1,10 @@
-package pessoa;
+package bo.pessoa;
 
 import java.util.ArrayList;
 
-import comunicacao.Email;
-import comunicacao.Telefone;
-import endereco.EnderecoEspecifico;
+import bo.comunicacao.Email;
+import bo.comunicacao.Telefone;
+import bo.endereco.EnderecoEspecifico;
 
 public class PessoaJuridica extends Pessoa {
   private String cnpj;

@@ -1,4 +1,4 @@
-package endereco;
+package bo.endereco;
 
 public class Endereco {
   private String cep;

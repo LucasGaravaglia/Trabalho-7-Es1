@@ -1,4 +1,4 @@
-package comunicacao;
+package bo.comunicacao;
 
 public class Email {
   private String email;

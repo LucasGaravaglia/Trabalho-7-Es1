@@ -1,4 +1,4 @@
-package bensedireitos;
+package bo.bensedireitos;
 
 public class TipoBensEDireitos {
   private String nome;

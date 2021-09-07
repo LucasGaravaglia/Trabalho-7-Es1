@@ -1,4 +1,4 @@
-package pessoa;
+package bo.pessoa;
 
 import java.util.Date;
 

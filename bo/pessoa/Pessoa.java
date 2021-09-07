@@ -1,9 +1,9 @@
-package pessoa;
+package bo.pessoa;
 
 import java.util.ArrayList;
 
-import comunicacao.*;
-import endereco.EnderecoEspecifico;
+import bo.comunicacao.*;
+import bo.endereco.EnderecoEspecifico;
 
 public class Pessoa {
   private String nome;

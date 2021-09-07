@@ -1,4 +1,4 @@
-package pessoa;
+package bo.pessoa;
 
 public class TipoDependente {
   private String tipoDependente;

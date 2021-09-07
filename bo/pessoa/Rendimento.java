@@ -1,4 +1,4 @@
-package pessoa;
+package bo.pessoa;
 
 public class Rendimento {
   private Double valor;

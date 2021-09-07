@@ -1,11 +1,11 @@
-package pessoa;
+package bo.pessoa;
 
 import java.util.ArrayList;
 
-import bensedireitos.BensEDireitos;
-import comunicacao.Email;
-import comunicacao.Telefone;
-import endereco.EnderecoEspecifico;
+import bo.bensedireitos.BensEDireitos;
+import bo.comunicacao.Email;
+import bo.comunicacao.Telefone;
+import bo.endereco.EnderecoEspecifico;
 
 public class Contribuinte extends PessoaFisica {
   private ArrayList<BensEDireitos> bens;
